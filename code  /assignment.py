@@ -20,7 +20,7 @@ TOKEN = ''
 
 # Create connection to database
 
-#Make sure if are unable to connect make sure you have the right path to data.db
+#Make sure you have the right path to data.db, in case you have any connection issues
 conn = sqlite3.connect('data.db')
 c = conn.cursor()
 
